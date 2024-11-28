@@ -1,5 +1,6 @@
 def make_change(coins, total):
-    """Calculate the minimum number of coins needed to make a given total.
+    """
+    Calculate the minimum number of coins needed to make a given total.
 
     Args:
         coins (list): List of coin denominations available.
