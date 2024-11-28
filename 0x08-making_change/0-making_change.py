@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def make_change(coins, total):
     """
     Calculate the minimum number of coins needed to make a given total.
