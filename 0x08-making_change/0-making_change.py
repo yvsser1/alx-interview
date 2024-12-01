@@ -2,6 +2,7 @@
 
 """ makeChange function"""
 
+
 def makeChange(coins, total):
     """
     Calculate the minimum number of coins needed to make a given total.
