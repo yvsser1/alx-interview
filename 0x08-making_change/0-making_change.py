@@ -2,7 +2,7 @@
 
 """ makeChange function"""
 
-def make_change(coins, total):
+def makeChange(coins, total):
     """
     Calculate the minimum number of coins needed to make a given total.
 
@@ -13,7 +13,6 @@ def make_change(coins, total):
     Returns:
         int: Minimum number of coins needed, or -1 if impossible.
     """
-    # Handle base cases
     if not coins or coins is None:
         return -1
     if total <= 0:
