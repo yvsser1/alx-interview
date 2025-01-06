@@ -18,7 +18,7 @@ def island_perimeter(grid):
     Returns:
         int: The perimeter of the island
 
-    The function works by checking each land cell and counting its exposed edges.
+    The function works by checking each landcell and counting exposed edges.
     An edge is exposed if it's adjacent to water or the grid boundary.
     """
     if not grid:
