@@ -30,7 +30,7 @@ def canUnlockAll(boxes):
 
     while stack:
         current_box = stack.pop()
-        
+
         # Check each key in the current box
         for key in boxes[current_box]:
             # If the key opens a new box (within valid range)
